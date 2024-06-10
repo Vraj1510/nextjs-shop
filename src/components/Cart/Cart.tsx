@@ -18,17 +18,20 @@ const { data: session } = useSession();
   const { totalPrice } = useCartTotals();
   const checkOutHandler = async () => {
     const stripe = await getStripe();
+    console.log(session);
+    if(!session)
+    {
+      return;
+    }
+    // const { data } = await axios.post('/api/stripe', {
+    //   cartItems,
+    //   userEmail: session?.user?.email,
+    // });
+    // if (!data) return;
 
-    const { data } = await axios.post('/api/stripe', {
-      cartItems,
-      userEmail: session?.user?.email,
-    });
+    // localStorage.removeItem('cart');
 
-    if (!data) return;
-
-    localStorage.removeItem('cart');
-
-    stripe.redirectToCheckout({ sessionId: data.id });
+    // stripe.redirectToCheckout({ sessionId: data.id });
   };
   useEffect(() => {
     setRenderComponent(true);

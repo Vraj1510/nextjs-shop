@@ -33,7 +33,7 @@ const Signup: FC<SignupProps> = (props) => {
       if (response.data) toast.success(`${response.statusText}. Please sign in`);
     } catch (error) {
       setIsFormSubmitting(false);
-      toast.error('Something went wrong');
+      toast.error('User Already Exists');
       console.log('Error', error);
     }
 

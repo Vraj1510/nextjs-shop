@@ -23,15 +23,15 @@ const { data: session } = useSession();
     {
       return;
     }
-    // const { data } = await axios.post('/api/stripe', {
-    //   cartItems,
-    //   userEmail: session?.user?.email,
-    // });
-    // if (!data) return;
+    const { data } = await axios.post('/api/stripe', {
+      cartItems,
+      userEmail: session?.user?.email,
+    });
+    if (!data) return;
 
-    // localStorage.removeItem('cart');
+    localStorage.removeItem('cart');
 
-    // stripe.redirectToCheckout({ sessionId: data.id });
+    stripe.redirectToCheckout({ sessionId: data.id });
   };
   useEffect(() => {
     setRenderComponent(true);

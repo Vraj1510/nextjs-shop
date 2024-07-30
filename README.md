@@ -81,6 +81,55 @@ Secure user authentication and authorization are handled using Auth.js, ensuring
 
 The easiest way to deploy your Next.js app is to use the Vercel Platform from the creators of Next.js.
 
+
+<img width="1470" alt="Screenshot 2024-07-30 at 10 12 05 PM" src="https://github.com/user-attachments/assets/47204e3a-2fe9-4fd5-820e-ca2f2036d7d0">
+
+
+
+
+<img width="1470" alt="Screenshot 2024-07-30 at 10 12 26 PM" src="https://github.com/user-attachments/assets/fea8a45a-567c-470c-bc23-05b612ed7401">
+
+
+
+
+<img width="1470" alt="Screenshot 2024-07-30 at 10 12 55 PM" src="https://github.com/user-attachments/assets/58f38d8d-454b-4e2d-871d-cffafa46e6c2">
+
+
+
+
+<img width="1460" alt="Screenshot 2024-07-30 at 10 13 14 PM" src="https://github.com/user-attachments/assets/4cfeab49-416e-4233-83fd-6b724f320f8e">
+
+
+
+
+<img width="1470" alt="Screenshot 2024-07-30 at 10 12 42 PM" src="https://github.com/user-attachments/assets/f8a8107c-bc55-454d-aa41-da9db555313f">
+
+
+
+
+<img width="1452" alt="Screenshot 2024-07-30 at 10 13 29 PM" src="https://github.com/user-attachments/assets/b3a1e800-34bc-4aed-a7d8-be31686abccc">
+
+
+
+
+<img width="1450" alt="Screenshot 2024-07-30 at 10 13 51 PM" src="https://github.com/user-attachments/assets/be941c24-69c0-4334-9dfd-22d01d005bd3">
+
+
+
+<img width="1458" alt="Screenshot 2024-07-30 at 10 14 37 PM" src="https://github.com/user-attachments/assets/5ec35a43-ee0a-4660-84b1-93ad014d9a0b">
+
+
+
+
+<img width="1442" alt="Screenshot 2024-07-30 at 10 19 45 PM" src="https://github.com/user-attachments/assets/155a9197-6169-46e6-8339-9796e1330373">
+
+
+
+
+<img width="1124" alt="Screenshot 2024-07-30 at 10 36 48 PM" src="https://github.com/user-attachments/assets/69312ff9-7646-42c5-ad33-7ea5281a4eb3">
+
+
+
 ### Deploy on Vercel
 
 1. Sign up for a Vercel account if you don't already have one.

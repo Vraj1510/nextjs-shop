@@ -14,13 +14,12 @@ const Cart: FC = () => {
   const { showCart, cartItems } = useAppSelector((state) => state.cart);
   const handleRemoveItem = (id: string) => dispatch(removeItemFromCart({ _id: id }));
   const [renderComponent, setRenderComponent] = useState(false);
-const { data: session } = useSession();
+  const { data: session } = useSession();
   const { totalPrice } = useCartTotals();
   const checkOutHandler = async () => {
     const stripe = await getStripe();
     console.log(session);
-    if(!session)
-    {
+    if (!session) {
       return;
     }
     const { data } = await axios.post('/api/stripe', {
@@ -101,7 +100,8 @@ const classNames = {
   subtotalContainer: 'px-4 mx-2 rounded-md py-3 bg-gray-200 flex items-center justify-between',
   subtotalText: 'text-gray-600',
   subtotalPrice: 'font-semibold',
-  checkoutBtn: 'text-center text-xl mx-16 hover:cursor-pointer rounded-md py-2 bg-blue-500 text-white mt-4',
+  checkoutBtn:
+    'text-center text-xl mx-16 hover:cursor-pointer rounded-md py-2 bg-blue-500 text-white mt-4',
 };
 
 const cartItemClassNames = {
